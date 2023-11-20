@@ -1,0 +1,138 @@
+# Ignore Visual Studio Code files
+.vscode/
+
+# Ignore Visual Studio files
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore ReSharper files
+_ReSharper.*/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore build and output files
+bin/
+obj/
+Debug/
+Release/
+x64/
+x86/
+AnyCPU/
+# Add more if needed
+
+# Ignore packages
+packages/
+
+# Ignore .NET Core and Visual Studio folders
+.vs2019/
+.vs/
+.vscode/
+.vscode-test/
+node_modules/
+logs/
+npm-debug.log
+
+# Ignore logs and databases
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Ignore user settings
+*.suo
+*.user
+*.userosscache
+
+# Ignore ReSharper
+_ReSharper*/
+
+# Ignore Rider
+.idea/
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Rr][Cc][Hh][Xx]64/
+[Aa][Rr][Cc][Hh]64/
+[Oo][Bb][Jj]/
+[Ll][Oo][Gg][Ss]/
+
+# Ignore NuGet
+packages/
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore generated files
+_UpgradeReport_Files/
+[Bb]in/
+[Oo]bj/
+
+# Ignore Visual Studio 2019 directories
+.vs2019/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore .NET Core
+project.lock.json
+project.fragment.lock.json
+
+# Ignore TypeScript
+*.js
+*.map
+
+# Ignore Visual Studio Code folders
+.vscode/
+.cache/
+
+# Ignore Rider
+.idea/
+
+# Ignore SQL Server files
+*.mdf
+*.ldf
+
+# Ignore dotCover
+dotCover/
+
+# Ignore Tye
+.tye/
+
+# Ignore user-specific settings
+.vssettings
+*.suo
+*.user
+
+# Ignore Rider
+.idea/
+
+# Ignore Azure Web App publish settings
+Pubxml/
+
+# Ignore Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Ignore folder config file
+Desktop.ini
+
+# Ignore Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Ignore node_modules in your project's root
+node_modules/

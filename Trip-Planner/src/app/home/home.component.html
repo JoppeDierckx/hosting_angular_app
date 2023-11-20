@@ -1,0 +1,50 @@
+<div class="bg-white" style="background-image: url(../../assets/pexels-matt-hardy-12319320.jpg);">
+    <div class="relative isolate px-6 pt-14 lg:px-8">
+      <div class="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+
+        <div *ngIf="islogin == false" class="hidden sm:mb-8 sm:flex sm:justify-center">
+            <div class="relative rounded-full px-3 py-1 text-lg leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
+              We zien dat u nog geen account heeft. <a href="#" class="font-semibold text"><span class="absolute inset-0" aria-hidden="true"></span>Registreer <span aria-hidden="true">&rarr;</span></a>
+            </div>
+          </div>    
+        <div class="text-center">
+          <h1 class="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">Trip Plan-R</h1>
+          <p class="mt-6 text-xl leading-8 text-gray-600">De makkelijkste manier om uw reis te plannen.   </p>
+          <div class="mt-10 flex items-center justify-center gap-x-6">
+            <a href="#" class="rounded-md bg-primary px-3.5 py-2.5 text-lg font-semibold text-white shadow-sm transition duration-300 ease-in-out hover:bg-secondary focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+              Plan trip
+            </a>
+            <a href="#" class="text-lg font-semibold leading-6 text-gray-900">Bekijk trips <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+<div class="bg-gray-100">
+    <div class="flex flex-col lg:flex-row max-w-screen-lg mx-auto">
+        <div class="flex-1 bg-white my-10 mx-10 text-center ">
+            <h2 class="text-2xl">Populaire bestemmingen</h2>
+            <ul>
+                <li>Land 1</li>
+                <li>Land 2</li>
+                <li>Land 3</li>
+                <li>Land 4</li>
+            </ul>
+            <p class="m-3">
+              <a routerLink = "popular-country" class="bg-primary px-4 py-2 rounded-md text-white shadow hover:bg-in" aria-current="page">Bekijk meer</a>
+            </p>
+        </div>
+        <div class="flex-1 bg-white my-10 mx-10 text-center">
+            <h2 class="text-2xl">Populaire trips</h2>
+            <ul>
+                <li>Trip 1</li>
+                <li>Trip 2</li>
+                <li>Trip 3</li>
+                <li>Trip 4</li>
+            </ul>
+            <p class="m-3">
+              <a routerLink = "popular-trips" class="bg-primary px-4 py-2 rounded-md text-white shadow hover:bg-in" aria-current="page">Bekijk meer</a>
+            </p>
+        </div>
+    </div>
+</div>
